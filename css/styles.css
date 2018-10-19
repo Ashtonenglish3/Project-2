@@ -225,7 +225,7 @@ h4{
   padding-top: 60px;
 }
 .copy-right{
-  color: rgb(146, 139, 139);
+  color: rgb(146, 139, 139);z
   padding-top: 80px;
   float: right;
 }
@@ -638,7 +638,7 @@ h4{
   .image4{
     grid-column-start: 1;
     grid-column-end:2;
-    width: 300%; 
+    width: 400%; 
     }
   .image5{
     margin-top: 10px;
