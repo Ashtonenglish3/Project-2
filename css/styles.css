@@ -183,9 +183,7 @@ h2 {
 /* container5 */
 .container5{
   display:grid;
-  /* Creating columns */
   grid-template-columns: 80% 20%;
-  /* Create spaces between items or "blocks" */
   grid-gap: 15px;
   color:white;
   padding:10px;
