@@ -15,10 +15,10 @@ hr {
     margin-top: 3%;
 }
 
-
+/* main container of the page */
 .main-container {
-  margin-left: 6.250em;
-  margin-right: 6.250em;
+  margin-left: 5.250em; 
+  margin-right: 5.250em;
 }
 
 /* Hover Effects Start Here */
@@ -28,7 +28,7 @@ hr {
   text-decoration: none;
   color: #ff3;
 }
-
+/* hovering effect onto text */
 .hyperlinks:hover {
   text-decoration: none;
   color:grey;
@@ -49,7 +49,7 @@ opacity: 0.65;                     /*image hovering effects*/
   color: #ff3;
   text-decoration: none;
   font-size: 24px;
-  margin-top: 3px;
+  margin-top: 1px;
 }
 
 .subheadings:hover {
@@ -111,8 +111,8 @@ h1 {
   font-size: 20px;
 }
 
-.headings {
-  margin-top: 50px;
+.head {
+  margin-top: 30px;
   font-family: Vollkorn;
 }
 
@@ -123,7 +123,7 @@ h2 {
 .text2 {
   color: #ccc;
   font-size: 16px;
-  margin-top: 3px;
+  margin-top: 1px;
 }
 
 
@@ -158,9 +158,9 @@ h2 {
 .container4{
   display:grid;
   /* Creating columns */
-  grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
+  grid-template-columns: 25.5% 25.5% 25.5% 25.5%;
   /* Create spaces between items or "blocks" */
-  grid-gap: 15px;
+  grid-gap: 13px;
   color:white;
   padding:10px;
 }
@@ -218,7 +218,7 @@ h2 {
   margin-top: 80px;
 }
 
-.footersymbols {
+.symbols {
   text-align: right;
   text-decoration: none;
   color: grey;
@@ -337,7 +337,7 @@ h2 {
   padding-right: 3%;
   }
 
-.footersymbols {
+.symbols {
   text-align: center;
   text-decoration: none;
   color: grey;
@@ -351,7 +351,7 @@ h2 {
   .main-container {
     margin-left: 2.050em;
     margin-right: 2.050em;
-
+    justify-content:center;
   }
 
   .container2 {
@@ -406,7 +406,7 @@ h2 {
   }
 
   h2 {
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .container4 {
@@ -426,11 +426,3 @@ h2 {
 
 }
 
-@media only screen and (max-width: 260px) {
-
-  .main-container {
-    margin-left: 0.250em;
-    margin-right: 0.250em;
-
-  }
-}
